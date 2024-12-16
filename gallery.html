@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Gallery</title>
+<style>
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0 4px;
+    }
+    .column {
+        flex: 30%;
+        max-width: 30%;
+        padding: 0 4px 4px 4px;
+    }
+    .column img {
+        margin-top: 8px;
+        vertical-align: middle;
+        width: 100%;
+    }
+    @media screen and (max-width : 800px) {
+        .column {
+            flex: 100%;
+            max-width: 100%;
+        }
+    }
+</style>
+<link rel="stylesheet" href="styles.css">
+<link rel="icon" href="favicon.ico">
+</head>
+<body>
+	<nav>
+		<a href="index.html" style="color: FFFFFF;">Home</a>&nbsp;
+        <a href="help.html" style="color: FFFFFF;">Help</a>&nbsp;   
+        <a href="gallery.html" style="color: FFFFFF;">Gallery</a>&nbsp;
+        <a href="faq.html" style="color: FFFFFF;">FAQ</a>&nbsp;
+        <a href="about.html" style="color: FFFFFF;">About</a>&nbsp;       
+	</nav>
+    <main>
+        <section class="subtitle">
+            <img src="images/logo.png" width="50" height="50" class="logo" alt="Logo">
+        </section>
+        <div class="row">
+            <div class="column">
+                <img src="images/img_1.jpg"; alt="mountains">
+                <img src="images/img_2.jpg">
+                <img src="images/img_3.jpg">
+                <img src="images/img_4.jpg">
+                <img src="images/img_5.jpg">
+            </div>  
+            <div class="column">
+                <img src="images/img_6.jpg">
+                <img src="images/img_7.jpg">
+                <img src="images/img_8.jpg">
+                <img src="images/img_9.jpg">
+                <img src="images/img_10.jpg">                
+            </div>
+            <div class="column">
+                <img src="images/img_1.jpg">
+                <img src="images/img_2.jpg">
+                <img src="images/img_3.jpg">
+                <img src="images/img_4.jpg">
+                <img src="images/img_5.jpg">
+            </div>
+        </section>     
+    </main>
+    <footer>
+        <p>&#169;This page is licenced under a...Int.Licence</p>
+        Last updated on 03/12/24.
+    </footer>
+</body>
+</html>
